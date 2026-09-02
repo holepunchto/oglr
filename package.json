@@ -1,0 +1,60 @@
+{
+  "name": "create-oglr",
+  "productName": "oglr",
+  "version": "0.0.0",
+  "upgrade": "pear://o3c9afa5rw7sep5bd3xo796w1gz9f9u7oxg356dc3om958cs84gy",
+  "description": "Look inside Pear Applications",
+  "main": "install.js",
+  "bin": {
+    "oglr": "install.js"
+  },
+  "scripts": {
+    "start": "bare bin.mjs",
+    "test": "brittle-bare test/index.js",
+    "lint": "prettier . --check && lunte",
+    "format": "prettier . --write && lunte --fix",
+    "make": "node scripts/make.js",
+    "make:darwin-arm64": "bare-build --name oglr --standalone --host darwin-arm64 --out ./out/darwin-arm64 bin.mjs",
+    "make:darwin-x64": "bare-build --name oglr --standalone --host darwin-x64 --out ./out/darwin-x64 bin.mjs",
+    "make:linux-arm64": "bare-build --name oglr --standalone --host linux-arm64 --out ./out/linux-arm64 bin.mjs",
+    "make:linux-x64": "bare-build --name oglr --standalone --host linux-x64 --out ./out/linux-x64 bin.mjs",
+    "make:win32-arm64": "bare-build --name oglr --standalone --host win32-arm64 --out ./out/win32-arm64 bin.mjs",
+    "make:win32-x64": "bare-build --name oglr --standalone --host win32-x64 --out ./out/win32-x64 bin.mjs"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bare-ansi-escapes": "^2.2.3",
+    "bare-bundle": "^1.10.0",
+    "bare-os": "^3.9.0",
+    "bare-path": "^3.0.0",
+    "bare-process": "^4.5.0",
+    "bare-readline": "^1.3.1",
+    "bare-rpc": "^1.3.8",
+    "bare-standalone-bundle-extract": "^0.1.0",
+    "bare-storage": "^1.1.0",
+    "bare-tty": "^5.1.2",
+    "bare-zlib": "^1.4.1",
+    "corestore": "^7.9.2",
+    "distributed-drive": "^1.0.1",
+    "hyperdrive": "^12.0.0",
+    "hyperswarm": "^4.17.0",
+    "localdrive": "^2.2.1",
+    "mirror-drive": "^1.14.2",
+    "paparam": "^1.10.1",
+    "pear-link": "^5.0.0",
+    "pear-runtime": "^1.2.0",
+    "ready-resource": "^1.2.0",
+    "streamx": "^2.22.0",
+    "unix-path-resolve": "^1.0.2",
+    "which-runtime": "^1.4.0"
+  },
+  "devDependencies": {
+    "bare-build": "^1.0.2",
+    "bare-runtime": "^1.29.5",
+    "bare-sidecar": "^0.5.3",
+    "brittle": "^3.19.0",
+    "lunte": "^1.2.0",
+    "prettier": "^3.6.2",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
