@@ -1,0 +1,5 @@
+210
+{"version":0,"id":null,"main":"/index.js","imports":{},"resolutions":{},"addons":[],"assets":[],"files":{"/index.js":{"offset":0,"length":10,"mode":420},"/inner.bundle":{"offset":10,"length":232,"mode":420}}}
+OUTER_MAIN207
+{"version":0,"id":null,"main":"/index.js","imports":{},"resolutions":{},"addons":[],"assets":[],"files":{"/deep/x.txt":{"offset":0,"length":12,"mode":420},"/index.js":{"offset":12,"length":10,"mode":420}}}
+DEEP_CONTENTINNER_MAIN
