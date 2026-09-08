@@ -7,7 +7,7 @@
 With [Pear CLI](https://install.pears.com):
 
 ```
-pear install pear://o3c9afa5rw7sep5bd3xo796w1gz9f9u7oxg356dc3om958cs84gy
+pear install pear://og1rsj1br745iyde6x1ya6j1sa99yx7r93igg9zky7t1yz5s1why
 ```
 
 Or bootstrap via `npm`:
