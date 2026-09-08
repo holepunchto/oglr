@@ -1,7 +1,7 @@
 {
   "name": "create-oglr",
   "productName": "oglr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "upgrade": "pear://og1rsj1br745iyde6x1ya6j1sa99yx7r93igg9zky7t1yz5s1why",
   "description": "Look inside Pear Applications",
   "main": "install.js",
